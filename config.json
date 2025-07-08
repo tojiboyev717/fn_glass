@@ -1,0 +1,26 @@
+{
+    "version": "1.17.1",
+    "workingPosition": [ 5583, 88, -6191],
+    "craftingTablePosition": [ 5583, 88, -6191],
+    "outputPosition": [ 5583, 88, -6190],
+    "login": {
+        "gapTicks": 60,
+        "sequence": [
+            "/login fort54321",
+            "/is warp craft"
+        ]
+    },
+    "crafting": {
+        "product": "glass_bottle",
+        "useCraftingTable": true,
+        "materials": {
+            "glass": [ 5583, 89, -6192]
+        }
+    },
+    "chatControl": {
+        "allowOwnersOnly": true,
+        "owners": ["Umid"],
+        "whisperRegexPatterns": []
+    },
+    "logChats": false
+}
