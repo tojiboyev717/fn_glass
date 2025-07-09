@@ -166,7 +166,7 @@ async function botCraftOnce(bot, config) {
             continue;
         }
         let amountInInventory = inventory.countItemById(bot, recipeItem.id);
-        let withdrawAmount = (-(recipeItem.count * 3)) - amountInInventory;  // 8 ta emerald block uchun hisoblash
+        let withdrawAmount = (-(recipeItem.count * 1)) - amountInInventory;  // 8 ta emerald block uchun hisoblash
         if (withdrawAmount > 0) {
          
 
@@ -183,7 +183,7 @@ async function botCraftOnce(bot, config) {
     }
 
     // Craftingni boshlash
-    let craftingAmount = 3;  // 8 ta emerald block crafting qilish
+    let craftingAmount = 1;  // 8 ta emerald block crafting qilish
 
     let complete = false;
     if (craftingTable) {
